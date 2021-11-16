@@ -354,15 +354,16 @@ input[type=submit]:hover {
     display: grid;
     grid-column: 1 / -1;
     grid-row: 1 / auto;
-    background-image: url("../images/attempt.jpg");
+    background-image: url("../images/tester.jpeg");
     background-repeat: no-repeat;
     margin-bottom: 50px;
   }
 
   header.noParallax {
     background-image: none;
-    height: 100px; 
+    height: 80px; 
   }
+
 }
 
 @media screen and (prefers-reduced-motion: reduce){
