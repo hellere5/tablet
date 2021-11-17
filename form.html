@@ -21,27 +21,28 @@
               <li class="nav_item"><a href="recipes.html">Recipes</a></li>
               <li class="nav_item"><a href="favorites.html">Favorites</a></li>
               <li class="nav_item"><a href="cookbooks.html">Cookbooks</a></li>
-              <li class="nav_item current"><a href="form.html">Form</a></li>
+              <li class="nav_item current"><a href="form.html">Contact Me</a></li>
             </ul>
         </nav>
-        <h1>Form</h1>
+        <h1>Contact Me!</h1>
     </header>
     <main>
       <form action="https://formspree.io/f/xknkllek" method="post">
         <fieldset>
             <legend>Contact Me To Learn More About Recipes</legend>
-            <label for="name">Your Name</label>
-            <input type="text" id="name" name="Full Name" placeholder="Enter Your Full Name" required>
-            <div><span>Example: John Doe</span></div>
 
-            <label for="email">Your Email</label>
-            <input type="email" id="email" name="Email" placeholder="Enter Your Email Address" required>
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="First and last name" required autofocus>
+            <div><span>Example: John Doe</span></div>
+                
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="example@domain.com" required>
             <div><span>Example: johndoe@gmail.com</span></div>
-        
-            <label for="number">Your Phone Number</label>
-            <input type="tel" id="number" name="Phone Number" placeholder="Enter Your Phone Number" required>
+            
+            <label for="phone">Phone</label>
+            <input type="tel" name="Phone Number" data-format="+1 (ddd) ddd-dddd" id="phone" placeholder="Enter Your Phone Number" required>
             <div><span>Format: 123-456-7890</span></div>
-        
+  
             <label for="message">Leave A Message</label>
             <textarea  type="message" id="message" name="Message" placeholder="Enter a Message" required></textarea><br>
         
@@ -52,5 +53,9 @@
         </fieldset>
       </form>
     </main>  
+    <footer>
+      <p>University of Michigan School of Information Student <br/>
+        &copy; Eliza Lauren Heller - SI 339 Fall 2021</p>
+    </footer>
 </body>
 </html>
