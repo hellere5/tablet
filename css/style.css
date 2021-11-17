@@ -325,22 +325,7 @@ input[type=submit]:hover {
 
 }
 
-@media screen and (prefers-reduced-motion: reduce){
-  .item img {
-    animation: none;
-  }
-
-  .flip-box:hover .flip-box-inner {
-    transform: none;
-  }
-
-  header {
-    background-attachment: scroll; 
-  }
-
-}
-
-@media screen and (min-width: 900px){
+@media screen and (min-width: 1430){
   .flip-container{
     display: flex;
     flex-wrap: wrap;
@@ -400,4 +385,19 @@ input[type=submit]:hover {
     color: #000000;
     transform: rotateY(180deg);
   }
+}
+
+@media screen and (prefers-reduced-motion: reduce){
+  .item img {
+    animation: none;
+  }
+
+  .flip-box:hover .flip-box-inner {
+    transform: none;
+  }
+
+  header {
+    background-attachment: scroll; 
+  }
+
 }
