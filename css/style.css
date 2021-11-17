@@ -325,7 +325,7 @@ input[type=submit]:hover {
 
 }
 
-@media screen and (min-width: 1430){
+@media screen and (min-width: 1430px){
   .flip-container{
     display: flex;
     flex-wrap: wrap;
