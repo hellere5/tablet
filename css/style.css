@@ -181,7 +181,7 @@ form {
 	-moz-border-radius: 2%;
 	-webkit-border-radius: 2%;
 	border-radius: 2%;
-	width: 80%;
+	width: 85%;
 }
 
 legend{ 
@@ -230,13 +230,8 @@ textarea{
 }
 
 input[type=checkbox]{
-    display:inline;
-    width:inherit;
-}
-
-input[type=checkbox]{
-    display:inline;
-    width:inherit;
+  display:inline;
+  width:inherit;
 }
 
 input[type=submit] {
@@ -254,7 +249,11 @@ input[type=submit] {
 
 input[type=submit]:hover {
   opacity: 0.8;
+  box-shadow: 0 8px #666666;
+  transform: translateY(4px);
+  
 }
+
 
 @-webkit-keyframes grow{
   from {width: 50px; opacity: 0;}
@@ -301,7 +300,7 @@ input[type=submit]:hover {
 
   .container > div:not(:first-child) p {
     position: relative;
-    top: 100px;
+    top: 75px;
   }
 
   header {
@@ -313,7 +312,7 @@ input[type=submit]:hover {
     display: grid;
     grid-column: 1 / -1;
     grid-row: 1 / auto;
-    background-image: url("../images/tester.jpeg");
+    background-image: url("../images/smoothie.jpeg");
     background-repeat: no-repeat;
     margin-bottom: 50px;
   }
