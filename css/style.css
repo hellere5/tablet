@@ -284,13 +284,28 @@ input[type=submit]:hover {
     justify-items: center;
   }
 
+  p{
+    padding-top: 0px;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+
   .item p{
     /* float: right; */
     /* height: 300px;
     width: 300px; */
-    display: inline;
+    /* display: inline; */
     /* margin-left: 10px; */
-    align-items: center;
+    /* display: block; */
+    /* vertical-align: middle; */
+    margin: 0 auto;
+    padding-bottom: 0px;
+    vertical-align: middle;
+    text-align: left;
+  }
+
+  .item1 p{
+    padding-bottom: 40px;
   }
 
   .item img{
@@ -300,7 +315,6 @@ input[type=submit]:hover {
 
   .container > div:not(:first-child) p {
     position: relative;
-    top: 75px;
   }
 
   header {
@@ -310,8 +324,12 @@ input[type=submit]:hover {
 }
 
 @media screen and (min-width: 1400px){
-  h1.Ellie{
-    padding-top: 175px;
+  .Ellie{
+    background-color: white;
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+    margin-top: 175px;
   }
   
   .flip-container{
@@ -380,8 +398,6 @@ input[type=submit]:hover {
     background-size: cover; 
     color: #000000;
     height: 500px; 
-    display: grid;
-    grid-row: 1 / auto;
     background-image: url("../images/smoothie.jpeg");
     background-repeat: no-repeat;
     margin-bottom: 50px;
