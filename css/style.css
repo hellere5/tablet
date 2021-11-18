@@ -285,8 +285,8 @@ input[type=submit]:hover {
   }
 
   p{
-    padding-top: 0px;
-    padding-bottom: 40px;
+    padding-top: 5px;
+    padding-bottom: 35px;
     text-align: center;
   }
 
@@ -325,7 +325,7 @@ input[type=submit]:hover {
 
 @media screen and (min-width: 1400px){
   .Ellie{
-    background-color: white;
+    background-color: #ffffff;
     text-align: center;
     display: table;
     margin: 0 auto;
