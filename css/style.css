@@ -3,6 +3,7 @@ body{
 	padding:30px;
   font-size:150%;
   background-image: url("../images/black_and_white.jpg");
+  font-family: -apple-system, sans-serif;
 }
 
 h1{
