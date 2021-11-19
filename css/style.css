@@ -251,7 +251,6 @@ input[type=submit]:hover {
   opacity: 0.8;
   box-shadow: 0 8px #666666;
   transform: translateY(4px);
-  
 }
 
 
@@ -291,21 +290,16 @@ input[type=submit]:hover {
   }
 
   .item p{
-    /* float: right; */
-    /* height: 300px;
-    width: 300px; */
-    /* display: inline; */
-    /* margin-left: 10px; */
-    /* display: block; */
-    /* vertical-align: middle; */
     margin: 0 auto;
     padding-bottom: 0px;
     vertical-align: middle;
     text-align: left;
+    font-size: 22px;
   }
 
   .item1 p{
     padding-bottom: 40px;
+    text-align: center;
   }
 
   .item img{
