@@ -318,7 +318,7 @@ input[type=submit]:hover {
 
 }
 
-@media screen and (min-width: 1400px){
+/* @media screen and (min-width: 1400px){
   .Ellie{
     background-color: #ffffff;
     text-align: center;
@@ -402,19 +402,19 @@ input[type=submit]:hover {
     background-image: none;
     height: 80px; 
   } 
-}
+} */
 
 @media screen and (prefers-reduced-motion: reduce){
   .item img {
     animation: none;
   }
 
-  .flip-box:hover .flip-box-inner {
+  /* .flip-box:hover .flip-box-inner {
     transform: none;
   }
 
   header {
     background-attachment: scroll; 
-  }
+  } */
 
 }
